@@ -1,0 +1,131 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 22rem;
+  border-radius: 10px;
+  margin:20px;
+}
+.card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 22rem;
+  border-radius: 10px;
+  margin:20px;
+  }
+.home-page .card img{
+  transition: all linear .5s;
+}
+.card img{
+  transition: all linear .5s;
+}
+.home-page .card-name-price {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-body {
+  padding-top: 30px;
+}
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 10px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover , .card-img-top:hover{
+  transform: perspective(700px) translateZ(100px);
+}
+.card img:hover {
+  transform: perspective(700px) translateZ(100px);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+/* ==================
+filters
+============== */
+.filters h4 {
+  margin-top: 100px;
+  color: gray !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+.card-img-top{
+  
+}
+.filters button {
+  background-color: black;
+  /* width: 100%; */
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.Homepage-div {
+  margin-top: 5rem;
+}
+.filters {
+  width: 17vw;
+}
+.banner {
+  width: 100%;
+  padding-left: 0 !important;
+}
+.carouselDiv {
+  overflow-x: hidden;
+  margin-top: 90px;
+  padding-top: 0;
+}
+.text-center {
+  text-align: center;
+  margin-right: 10vw;
+}
+.btn-reset{
+  width: 10vw !important;
+}
+@media only screen and (max-width: 1200px) {
+  .btn-reset{
+    width: 40vw !important;
+  }
+}

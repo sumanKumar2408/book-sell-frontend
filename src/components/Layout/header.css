@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+.navbar {
+  opacity: 0.8;
+  box-shadow: none;
+  padding-bottom: 0;
+  /* margin-bottom: 12%; */
+}
+.navbar-div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+.navbar-brand {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  left: 1rem;
+  width: 20%;
+}
+.button {
+  background-color: red !important;
+  outline: none;
+  border: none;
+  padding: 8px 23px 8px 23px;
+  position: relative;
+  left: 25vw;
+  border-radius: 30px !important;
+  bottom: -2px;
+  /* width: 23%; */
+  /* display: none; */
+}
+.hidebutton {
+  display: none;
+  position: absolute;
+  top: 1vh;
+  left: 25vw;
+  background-color: #fff !important;
+  border: none;
+  outline: none;
+
+  z-index: 2;
+}
+#search {
+  border-radius: 10px;
+  cursor: pointer;
+
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  border: 1px solid;
+  border-color: black !important;
+}
+ul {
+  margin-left: 10vw;
+}
+.search-div {
+  width: 50vw;
+}
+li {
+  padding-left: 3%;
+  font-family: sans-serif;
+}
+.logo {
+  width: 20%;
+}
+@media only screen and (max-width: 1200px) {
+  .hidebutton {
+    display: block !important;
+  }
+  .button {
+    display: none !important;
+  }
+  .input {
+    top: 2vh;
+  }
+  .navbar-nav {
+    margin-top: 1.5rem;
+  }
+}
